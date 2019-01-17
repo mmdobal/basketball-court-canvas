@@ -98,21 +98,21 @@ ctx.stroke();
 ctx.closePath();
 
 // //linha dir hor
-// ctx.beginPath();
-// ctx.lineWidth = 3;
-// ctx.moveTo(750, 200);
-// ctx.lineTo(760, 200);
-// ctx.strokeStyle = '#fff';
-// ctx.stroke();
-// ctx.closePath();
+ctx.beginPath();
+ctx.lineWidth = 3;
+ctx.moveTo(750, 200);
+ctx.lineTo(760, 200);
+ctx.strokeStyle = '#fff';
+ctx.stroke();
+ctx.closePath();
 
 // //circulo preenchido dir
-// ctx.beginPath();
-// ctx.arc(747, 200, 5, 0, endAngle, true);
-// ctx.stroke();
-// ctx.fillStyle = '#fff';
-// ctx.fill();
-// ctx.closePath();
+ctx.beginPath();
+ctx.arc(747, 200, 5, 0, endAngle, true);
+ctx.stroke();
+ctx.fillStyle = '#fff';
+ctx.fill();
+ctx.closePath();
 
 // //circulo do meio
 ctx.beginPath();
@@ -141,10 +141,10 @@ ctx.closePath();
 
 
 // //semicirculo pontilhado direita
-// ctx.beginPath();
-// ctx.arc(650, 200, 50, 3*Math.PI/2, Math.PI/2);
-// ctx.stroke();
-// ctx.closePath();
+ctx.beginPath();
+ctx.arc(650, 200, 50, 3*Math.PI/2, Math.PI/2);
+ctx.stroke();
+ctx.closePath();
 
 
 
