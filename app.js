@@ -37,6 +37,8 @@ ctx.arc(650, 200, 50, 3*Math.PI/2, Math.PI/2, true);
 ctx.stroke();
 ctx.closePath();
 
+
+
 ctx.beginPath();
 ctx.arc(50, 200, 150, Math.PI/2, 3*Math.PI/2, true);
 ctx.stroke();
